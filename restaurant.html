@@ -1,0 +1,432 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Departments</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <header class="site-header js-site-header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-6 col-lg-4 site-logo" data-aos="fade"><a href="index.html">Virtual Store</a></div>
+          <div class="col-6 col-lg-8">
+
+
+            <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- END menu-toggle -->
+
+            <div class="site-navbar js-site-navbar">
+              <nav role="navigation">
+                <div class="container">
+                  <div class="row full-height align-items-center">
+                    <div class="col-md-6 mx-auto">
+                      <ul class="list-unstyled menu">
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="customer.html">Sign Up</a></li>
+                        <li><a href="Login1.html">Log In</a></li>
+                        <li class="active"><a href="restaurant.html">Products</a></li>
+                        <li><a href="trylist.php">Cart</a></li>
+                        <li><a href="logouthere.php">Log Out</a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END head -->
+
+    <section class="site-hero inner-page overlay" style="background-image: url(images/hero_4.jpg)" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row site-hero-inner justify-content-center align-items-center">
+          <div class="col-md-10 text-center" data-aos="fade">
+            <h1 class="heading mb-3">Departments</h1>
+            <ul class="custom-breadcrumbs mb-4">
+              <li><a href="index.html">Home</a></li>
+              <li>&bullet;</li>
+              <li>Departments</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <a class="mouse smoothscroll" href="#next">
+        <div class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </div>
+      </a>
+    </section>
+    <!-- END section -->
+  
+  <section class="section bg-image overlay" style="background-image: url('images/hero_3.jpg');">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-7">
+            <form action="addorder.php" method="post">
+              <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Click Here Once Only To Shop</button>
+            </form>
+            <h2 class="heading text-white" data-aos="fade">Departments</h2>
+            <p class="text-white" data-aos="fade" data-aos-delay="100">We provide fresh products at reasonable prices with friendly service so as to achieve “Everything Fresh, Everyday Prime!”</p>
+          </div>
+        </div>
+        <div class="food-menu-tabs" data-aos="fade">
+          <ul class="nav nav-tabs mb-5" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active letter-spacing-2" id="mains-tab" data-toggle="tab" href="#mains" role="tab" aria-controls="mains" aria-selected="true">FOOD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letter-spacing-2" id="desserts-tab" data-toggle="tab" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false">Electronics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link letter-spacing-2" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">Sports</a>
+            </li>
+          </ul>
+          <div class="tab-content py-5" id="myTabContent">
+            
+            
+            <div class="tab-pane fade show active text-left" id="mains" role="tabpanel" aria-labelledby="mains-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="fooditempick.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br/>
+                    <span class="d-block text-primary h4 mb-3">$2.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Apple</a></h3>
+                    <p class="text-white text-opacity-7">Fresh apples straight from the farms of the east. Carefully picked and stored.</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/apples.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+              </div>
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="tomato.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name1" placeholder="Enter Quantity" name="qat">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit1" name="log" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br/>
+                    <span class="d-block text-primary h4 mb-3">$4.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Tomato</a></h3>
+                    <p class="text-white text-opacity-7">Ripped Juicy tomatos from the fields. Sensation of this season. Extra good quality!</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/tomato.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+              </div>
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="beef.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$14.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Beef 1kg</a></h3>
+                    <p class="text-white text-opacity-7">High quality beef from the local slaughterhouse. Recommended by the local authorities. Natural!</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/beefs.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="chicken.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$13.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Chicken 1kg</a></h3>
+                    <p class="text-white text-opacity-7">From our barns, a locally grown chickens. Fresh quality meat.</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/chicken.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="ketchup.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$8.35</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Ketchup</a></h3>
+                    <p class="text-white text-opacity-7">Original Virtual Store ketchup made from homegrown tomatoes. Economical and fresh in taste.</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/ketchup.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                  <div class="food-menu mb-5">
+                     <br/>
+                     <form action="popcorn.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$3.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Popcorn</a></h3>
+                    <p class="text-white text-opacity-7">Lightweight snack for fun times. Low salt added. Hygenic and tastys!</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/popcornss.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+              
+
+            </div> <!-- .tab-pane -->
+
+            <div class="tab-pane fade text-left" id="desserts" role="tabpanel" aria-labelledby="desserts-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="iphone.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$999.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Iphone X</a></h3>
+                    <p class="text-white text-opacity-7">The iPhone X is Apple's flagship 10th anniversary iPhone featuring a 5.8-inch OLED display, facial recognition and 3D camera functionality, a glass body, and an A11 Bionic processor</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/iphonex.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="laptop.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$1999.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">ROG Zephyrus S</a></h3>
+                    <p class="text-white text-opacity-7">The ROG Zephyrus S is redefining ultra-slim gaming laptops yet again with innovative engineering to cool its 8th Gen Intel Core i7 processor and up to GeForce GTX 1070 with Max-Q design</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/laptop.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="airdot.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">13.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Redmi AirDots</a></h3>
+                    <p class="text-white text-opacity-7">It have true wireless stereo (TWS) technology that splits audio in both earbuds to deliver a truly wireless experience. With no wires for a tangle-free experience, the set comes with a charging box for storage and wireless charging, delivering extreme simplicity and convenience.</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/airdots.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- .tab-pane -->
+            
+            <div class="tab-pane fade text-left" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="football.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$13.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Nike Football</a></h3>
+                    <p class="text-white text-opacity-7">Soccer ball. Resistant material. High visibility in the field.</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/football.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                </div>
+                  </div>
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="bat.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$30.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Cricket Bat</a></h3>
+                    <p class="text-white text-opacity-7">Short Handle with Top Quality Handle Grip, Thick Blade Cricket Bat. Perfect Combination for Sixers</p>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="media media-custom d-block mb-4 h-100"><a href="#" class="mb-4 d-block"><img src="images/bat.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="food-menu mb-5">
+                    <br/>
+                     <form action="ball.php" method="post">
+                      <label for="name" >Quantity: </label>
+      <input type="number" class="form-control" required="required" id="name" placeholder="Enter Quantity" name="qt">
+      <br/>
+                    <button type="submit" value="Submit" id = "submit" name="submit" class="btn btn-default">Add To Cart</button>
+
+                  </form>
+                  <br />
+                    <span class="d-block text-primary h4 mb-3">$3.00</span>
+                    <h3 class="text-white"><a href="#" class="text-white">Tennis Balls</a></h3>
+                    <p class="text-white text-opacity-7">This ball can be used on all court surface. Great ball for recreational players. Superior quality vs. competitor offerings. 4 tennis balls per can.</p>
+            <a href="#" class="mb-4 d-block"><img src="images/ballten.jpg" alt="Image placeholder" class="img-fluid"></a>
+                  
+                  
+                  </div>
+                </div>
+              </div>
+            </div> <!-- .tab-pane -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-image overlay" style="background-image: url('images/hero_4.jpg');">
+        <div class="container" >
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center mb-4 mb-md-0 text-md-left" data-aos="fade-up">
+              <h2 class="text-white font-weight-bold">Done Here?</h2>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-right" data-aos="fade-up" data-aos-delay="200">
+              <a href="trylist.php" class="btn btn-outline-white-primary py-3 text-white px-5">Go To Cart</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <footer class="section footer-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-3 mb-5">
+            <ul class="list-unstyled link">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+             <li><a href="restaurant.html">Products</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5">
+            <ul class="list-unstyled link">
+              <li><a href="Login1.html">Log In</a></li>
+              <li><a href="customer.html">Sign Up</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5 pr-md-5 contact-info">
+            <!-- <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li> -->
+            <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span> <span> 062204 Preciziei Nr.24, <br> WESTGATE STUDIOS</span></p>
+            <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span> <span> (+40)748011440</span></p>
+            <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> dovlete.robert@gmail.com</span></p>
+          </div>
+        <div class="row pt-5">
+          <p class="col-md-6 text-left">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |
+          </p>
+            
+          <p class="col-md-6 text-right social">
+            <a href="#"><span class="fa fa-tripadvisor"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-vimeo"></span></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script> 
+    <script src="js/jquery.timepicker.min.js"></script> 
+    <script src="js/main.js"></script>
+    <script>
+      if ( window.history.replaceState ) {
+          window.history.replaceState( null, null, window.location.href );
+      }
+  </script>
+  </body>
+</html>
